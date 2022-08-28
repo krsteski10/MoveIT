@@ -1,0 +1,15 @@
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\bin\Debug\net6.0\MoveIT.Models.dll
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\bin\Debug\net6.0\MoveIT.Models.pdb
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\Xessable\source\repos\MoveITnew\MoveIT\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

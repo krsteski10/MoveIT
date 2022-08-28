@@ -1,0 +1,53 @@
+﻿@model MoveIT.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>Details for Order</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Distance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Distance)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivingArea)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivingArea)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BasementAtticArrea)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BasementAtticArrea)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NumberOfCars)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NumberOfCars)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Piano)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Piano)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Edit</a>
+    <a asp-action="Index" class="btn btn-dark">Back</a>
+</div>

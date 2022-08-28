@@ -1,0 +1,375 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Tests\\MoveIT.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj",
+        "projectName": "MoveIT.DataLayer",
+        "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Xessable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xessable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\MoveIT.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\MoveIT.App.csproj",
+        "projectName": "MoveIT.App",
+        "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\MoveIT.App.csproj",
+        "packagesPath": "C:\\Users\\Xessable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xessable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj"
+              },
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj"
+              },
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\MoveIT.Services.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\MoveIT.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj",
+        "projectName": "MoveIT.Models",
+        "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj",
+        "packagesPath": "C:\\Users\\Xessable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xessable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\MoveIT.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\MoveIT.Services.csproj",
+        "projectName": "MoveIT.Services",
+        "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\MoveIT.Services.csproj",
+        "packagesPath": "C:\\Users\\Xessable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xessable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\DataAccess\\MoveIT.DataLayer.csproj"
+              },
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Models\\MoveIT.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Tests\\MoveIT.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Tests\\MoveIT.Tests.csproj",
+        "projectName": "MoveIT.Tests",
+        "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Tests\\MoveIT.Tests.csproj",
+        "packagesPath": "C:\\Users\\Xessable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xessable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\MoveIT.App.csproj": {
+                "projectPath": "C:\\Users\\Xessable\\source\\repos\\MoveIT\\MoveIT\\MoveIT.App\\MoveIT.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
