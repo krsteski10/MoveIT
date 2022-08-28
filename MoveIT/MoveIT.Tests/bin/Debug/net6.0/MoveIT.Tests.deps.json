@@ -2634,7 +2634,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.8",
-          "MoveIT.DataLayer": "1.0.0",
           "MoveIT.Models": "1.0.0",
           "MoveIT.Services": "1.0.0"
         },

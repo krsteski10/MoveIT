@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-MoveIT.App-A34AFAA0-D641-4A1F-A99F-468A9012864B")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoveIT.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

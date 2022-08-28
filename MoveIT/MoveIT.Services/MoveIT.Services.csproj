@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\MoveIT.DataLayer.csproj" />
+    <ProjectReference Include="..\MoveIT.DataLayer\MoveIT.DataLayer.csproj" />
     <ProjectReference Include="..\MoveIT.Models\MoveIT.Models.csproj" />
   </ItemGroup>
 

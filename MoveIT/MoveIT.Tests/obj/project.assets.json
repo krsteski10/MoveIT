@@ -4041,7 +4041,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.8",
-          "MoveIT.DataLayer": "1.0.0",
           "MoveIT.Models": "1.0.0",
           "MoveIT.Services": "1.0.0"
         },
@@ -11518,8 +11517,8 @@
     },
     "MoveIT.DataLayer/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/MoveIT.DataLayer.csproj",
-      "msbuildProject": "../DataAccess/MoveIT.DataLayer.csproj"
+      "path": "../MoveIT.DataLayer/MoveIT.DataLayer.csproj",
+      "msbuildProject": "../MoveIT.DataLayer/MoveIT.DataLayer.csproj"
     },
     "MoveIT.Models/1.0.0": {
       "type": "project",

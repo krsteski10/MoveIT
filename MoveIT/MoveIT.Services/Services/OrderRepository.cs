@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MoteIT.DataAccess.Data;
 using MoteIT.DataLayer.Data;
 using MoveIT.Services.Services.Contracts;
 

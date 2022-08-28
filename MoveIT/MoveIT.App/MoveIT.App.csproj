@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\MoveIT.DataLayer.csproj" />
     <ProjectReference Include="..\MoveIT.Models\MoveIT.Models.csproj" />
     <ProjectReference Include="..\MoveIT.Services\MoveIT.Services.csproj" />
   </ItemGroup>
