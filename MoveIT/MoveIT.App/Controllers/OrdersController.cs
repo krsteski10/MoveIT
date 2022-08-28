@@ -73,7 +73,12 @@ namespace MoveIT.App.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult GetOrderPrice(MoveIT.Models.Order order)
         {
-            return View("ShowMyPrice", GetOrCreateOrder(order));
+            ModelState.Remove("NumberOfCars");
+            ModelState.Remove("TotalAmount");
+
+            var newOrder = GetOrCreateOrder(order);
+         
+            return View("ShowMyPrice", newOrder);
         }
 
         // GET: Orders/Edit/5
@@ -143,6 +148,11 @@ namespace MoveIT.App.Controllers
             return _orderContext.GetOrderById(id);
         }
 
+        /// <summary>
+        /// Get or Create a new order with price and cars involved calculated
+        /// </summary>
+        /// <param name="order"></param>
+        /// <returns></returns>
         private MoveIT.Models.Order GetOrCreateOrder(MoveIT.Models.Order order)
         {
             var newOrder = MoveIT.Models.Order.Map(order);

@@ -6,6 +6,7 @@
 
 <h3>Show my Price</h3>
 
+<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -15,35 +16,42 @@
                 <input asp-for="Distance" class="form-control" />
                 <span asp-validation-for="Distance" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="LivingArea" class="control-label"></label>
                 <input asp-for="LivingArea" class="form-control" />
                 <span asp-validation-for="LivingArea" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="BasementAtticArrea" class="control-label"></label>
                 <input asp-for="BasementAtticArrea" class="form-control" />
                 <span asp-validation-for="BasementAtticArrea" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Piano" /> @Html.DisplayNameFor(model => model.Piano) included?
                 </label>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="NumberOfCars" class="control-label"> Number of Cars that will be involed in the process: </label>
-                <input asp-for="NumberOfCars" class="form-control" style="background-color:aquamarine" />
-                    @*<h3>@Html.DisplayFor(modelItem => modelItem.NumberOfCars)</h3>*@
+                <h4>
+                    @Html.DisplayFor(model => model.NumberOfCars)
+                </h4>
                 <span asp-validation-for="NumberOfCars" class="text-danger"></span>
             </div>
-
+            <br />
             <div class="form-group">
                 <label asp-for="TotalAmount" class="control-label"> The total amount of the costs: </label>
-                <input asp-for="TotalAmount" class="form-control" style="background-color:aquamarine" /> 
-                    @*<h3>@Html.DisplayFor(modelItem => modelItem.TotalAmount)</h3>*@
+                <h4>
+                    @Html.DisplayFor(model => model.TotalAmount)
+                </h4>
                 <span asp-validation-for="TotalAmount" class="text-danger"></span>
             </div>
 
+            <br />
             <div class="form-group">
                 <input type="submit" value="Re-Calculate" class="btn btn-danger" asp-action="GetOrderPrice" />
                 <input type="submit" value="Create" class="btn btn-primary" />

@@ -16,21 +16,26 @@
                 <input asp-for="Distance" class="form-control" />
                 <span asp-validation-for="Distance" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="LivingArea" class="control-label"></label>
                 <input asp-for="LivingArea" class="form-control" />
                 <span asp-validation-for="LivingArea" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <label asp-for="BasementAtticArrea" class="control-label"></label>
                 <input asp-for="BasementAtticArrea" class="form-control" />
                 <span asp-validation-for="BasementAtticArrea" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Piano" /> @Html.DisplayNameFor(model => model.Piano) included?
                 </label>
             </div>
+
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
                 <a asp-action="Index" class="btn btn-dark">Back</a>
