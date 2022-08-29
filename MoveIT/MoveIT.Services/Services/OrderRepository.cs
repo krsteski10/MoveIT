@@ -31,9 +31,9 @@ public class OrderRepository : IOrderRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<List<Models.Order>> ListOrdersAsync()
+    public async Task<List<Models.Order>> ListOrdersAsync(string userId)
     {
-        var orders = await _context.Order.ToListAsync();
+        var orders = await _context.Order.Where(user => user.UserId == userId).ToListAsync();
 
         return orders;
     }

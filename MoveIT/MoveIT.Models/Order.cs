@@ -9,6 +9,7 @@ public class Order
     public int NumberOfCars { get; set; }
     public bool Piano { get; set; }
     public int TotalAmount { get; set; }
+    public string? UserId { get; set; }
 
     public Order()
     {
@@ -24,6 +25,7 @@ public class Order
             LivingArea = order.LivingArea,
             BasementAtticArrea = order.BasementAtticArrea,
             Piano = order.Piano,
+            UserId = order.UserId
         };
 
         return newOrder;

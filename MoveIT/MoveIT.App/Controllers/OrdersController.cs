@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MoveIT.Services.Services.Contracts;
+using System.Security.Claims;
 
 namespace MoveIT.App.Controllers
 {
@@ -20,7 +21,9 @@ namespace MoveIT.App.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            var orders = await _orderContext.ListOrdersAsync();
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var orders = await _orderContext.ListOrdersAsync(userId);
 
             return View(orders);
         }
@@ -44,8 +47,10 @@ namespace MoveIT.App.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Create([Bind("Id,Distance,LivingArea,BasementAtticArrea,NumberOfCars,Piano,TotalAmount")] MoveIT.Models.Order order)
-        {
+        public async Task<IActionResult> Create([Bind("Id,Distance,LivingArea,BasementAtticArrea,NumberOfCars,Piano,TotalAmount,UserId")] MoveIT.Models.Order order)
+        {           
+            order.UserId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             if (ModelState.IsValid)
             {
                 if (order.TotalAmount > 0)

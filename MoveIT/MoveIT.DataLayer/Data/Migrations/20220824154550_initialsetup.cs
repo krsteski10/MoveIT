@@ -18,11 +18,18 @@ public partial class initialsetup : Migration
                 BasementAtticArrea = table.Column<int>(type: "int", nullable: false),
                 NumberOfCars = table.Column<int>(type: "int", nullable: false),
                 Piano = table.Column<bool>(type: "bit", nullable: false),
-                TotalAmount = table.Column<int>(type: "int", nullable: false)
+                TotalAmount = table.Column<int>(type: "int", nullable: false),
+                UserId = table.Column<string>(nullable: true),
             },
             constraints: table =>
             {
                 table.PrimaryKey("PK_Order", x => x.Id);
+                table.ForeignKey(
+                    name: "FK_Order_AspNetUsers_UserId",
+                    column: x => x.UserId,
+                    principalTable: "AspNetUsers",
+                    principalColumn: "Id",
+                    onDelete: ReferentialAction.Cascade);
             });
     }
 

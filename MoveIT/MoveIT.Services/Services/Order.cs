@@ -27,9 +27,9 @@ public class Order : IOrder
         await _orderContext.DeleteOrder(order);
     }
 
-    public async Task<List<Models.Order>> ListOrdersAsync()
+    public async Task<List<Models.Order>> ListOrdersAsync(string userId)
     {
-        return await _orderContext.ListOrdersAsync();
+        return await _orderContext.ListOrdersAsync(userId);
     }
 
     public async Task<Models.Order> GetOrderDetails(int? id)

@@ -10,15 +10,3 @@ C:\Users\Xessable\source\repos\MoveITnew\MoveIT\MoveIT.Models\obj\Debug\net6.0\M
 C:\Users\Xessable\source\repos\MoveITnew\MoveIT\MoveIT.Models\obj\Debug\net6.0\refint\MoveIT.Models.dll
 C:\Users\Xessable\source\repos\MoveITnew\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.pdb
 C:\Users\Xessable\source\repos\MoveITnew\MoveIT\MoveIT.Models\obj\Debug\net6.0\ref\MoveIT.Models.dll
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\bin\Debug\net6.0\MoveIT.Models.deps.json
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\bin\Debug\net6.0\MoveIT.Models.dll
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\bin\Debug\net6.0\MoveIT.Models.pdb
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.csproj.AssemblyReference.cache
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.AssemblyInfoInputs.cache
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.AssemblyInfo.cs
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.csproj.CoreCompileInputs.cache
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.dll
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\refint\MoveIT.Models.dll
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\MoveIT.Models.pdb
-C:\Users\Xessable\source\repos\MoveIT\MoveIT\MoveIT.Models\obj\Debug\net6.0\ref\MoveIT.Models.dll

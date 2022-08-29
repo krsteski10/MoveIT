@@ -8,7 +8,7 @@ public interface IOrderRepository
 
     Task DeleteOrder(Models.Order order);
 
-    Task<List<Models.Order>> ListOrdersAsync();
+    Task<List<Models.Order>> ListOrdersAsync(string userId);
     
     Task<Models.Order> GetOrderDetails(int? id);
     
